@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Sat Mar 28 10:41:13 2020
+# Process ID: 8320
+# Log file: C:/Users/Yankey/Documents/VHDL/3rd Year Assinments/Assinment1/planAhead_run_1/planAhead.log
+# Journal file: C:/Users/Yankey/Documents/VHDL/3rd Year Assinments/Assinment1/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source {C:/Users/Yankey/Documents/VHDL/3rd Year Assinments/Assinment1/pa.fromHdl.tcl}
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin E13 [get_ports {Anode_Sel[3]}]
+endgroup
+startgroup
+set_property package_pin F14 [get_ports {Anode_Sel[2]}]
+endgroup
+startgroup
+set_property package_pin G14 [get_ports {Anode_Sel[1]}]
+endgroup
+startgroup
+set_property package_pin D14 [get_ports {Anode_Sel[0]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {Input[7]}]
+endgroup
+startgroup
+set_property package_pin K13 [get_ports {Input[7]}]
+endgroup
+startgroup
+set_property package_pin K14 [get_ports {Input[6]}]
+endgroup
+startgroup
+set_property package_pin J13 [get_ports {Input[5]}]
+endgroup
+startgroup
+set_property package_pin J14 [get_ports {Input[4]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {Input[3]}]
+endgroup
+startgroup
+set_property package_pin H14 [get_ports {Input[2]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {Input[1]}]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports {Input[0]}]
+endgroup
+startgroup
+set_property package_pin E14 [get_ports {SegA_G[6]}]
+endgroup
+set_property package_pin "" [get_ports [list  {SegA_G[5]}]]
+startgroup
+set_property package_pin G13 [get_ports {SegA_G[5]}]
+endgroup
+startgroup
+set_property package_pin N15 [get_ports {SegA_G[4]}]
+endgroup
+startgroup
+set_property package_pin P15 [get_ports {SegA_G[3]}]
+endgroup
+startgroup
+set_property package_pin R16 [get_ports {SegA_G[2]}]
+endgroup
+set_property package_pin "" [get_ports [list  {SegA_G[1]}]]
+set_property package_pin "" [get_ports [list  {SegA_G[1]}]]
+startgroup
+set_property package_pin F13 [get_ports {SegA_G[1]}]
+endgroup
+startgroup
+set_property package_pin N16 [get_ports {SegA_G[0]}]
+endgroup
+set_property package_pin "" [get_ports [list  clk]]
+startgroup
+set_property package_pin T9 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports displayButt]
+endgroup
+startgroup
+set_property package_pin L13 [get_ports Enter]
+endgroup
+save_constraints
